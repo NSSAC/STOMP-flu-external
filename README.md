@@ -10,8 +10,6 @@ STOMP-flu simulations are executed via a force of infection method within the Pa
 
 STOMP-flu's underlying disease model follows a traditional susceptible, exposed, infectious, and recovered (SEIR) structure with additional compartments to describe symptomatic treatment, hospitalization, ventilation, and death. During execution, PatchSim simulates the proportion of individuals moving through each SEIR disease state within each subpopulation. Following execution, PatchSim output data describing case counts by subpopulation, day, and iteration is analyzed via an outcome processing module to generate additional outcomes describing treatment, hospitalization, ventilation, and death.
 
-![STOMP-flu Disease model](Influenza_vax_outcomes.png)
-
 The included scenarios explore a range of implementations of school closure, vaccination, and antiviral treatment interventions. Active school closure interventions are implemented via on the fly re-weighting of age cohort to age cohort exposure rates based upon an analysis of synthetic population activity schedules. Vaccination and antiviral interventions are implemented within the disease state model where general population and symptomatic infected individuals respectively are treated and moved into the appropriate treatment state.
 
 The STOMP-flu project represents the work done at the Biocomplexity Institute of the University of Virginia in support of a CDC ensemble modelling effort:
