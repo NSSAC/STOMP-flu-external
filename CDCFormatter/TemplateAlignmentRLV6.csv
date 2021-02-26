@@ -1,0 +1,7 @@
+compartment,template,fileOut,units
+E,templates/RLXX_SymIllness_YYY.csv,Exposed,100
+Isymp,templates/RLXX_SymIllness_YYY.csv,SymIllness,100
+AVDoses,templates/RLXX_AntiviralTX_YYY.csv,AntiviralTX,100
+Hosp,templates/RLXX_Hosp_YYY.csv,Hosp,100000
+Vent,templates/RLXX_Deaths_YYY.csv,Vent,100000
+Death,templates/RLXX_Deaths_YYY.csv,Deaths,100000

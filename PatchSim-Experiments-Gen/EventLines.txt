@@ -1,0 +1,58 @@
+* EPI1
+ExposureRate=1337
+SeedFile=../../../../HP_scenario_gen/USA_seed.csv
+Duration=365
+
+* EPI2
+ExposureRate=1337
+SeedFile=../../../../HP_scenario_gen/USA_seed.csv
+Duration=365
+
+* EPI2009
+ExposureRate=1337
+SeedFile=../../../../HP_scenario_gen/2009AlignedSeeds.txt
+Duration=372
+
+* VX1
+VaxFile=../../../../hypo_vax/hypo_vax1.csv
+VaxEfficacy=0.73
+VaxDelay=14
+
+* VX2
+VaxFile=../../../../hypo_vax/hypo_vax2.csv
+VaxEfficacy=0.73
+VaxDelay=14
+
+* VX2009
+VaxFile=../../../../vax_2009/vax_2009_scheduleV4.csv
+VaxEfficacy=0.73
+VaxDelay=14
+
+* !VX2009
+VaxFile=../../../../vax_2009/vax_2009_noVaxImmunityV4.csv
+VaxEfficacy=0.73
+VaxDelay=14
+
+* SC1
+NetInterventionFile=../../../../school_closures/scriptsFromWeights/sc_61-135_wholePop.txt
+
+* SC2
+NetInterventionFile=../../../../school_closures/scriptsFromWeights/sc_61-135_wholePop.txt
+
+* SC3
+NetInterventionFile=../../../../school_closures/scriptsFromWeights/sc_61-185_wholePop.txt
+
+* SC4
+NetInterventionFile=../../../../school_closures/scriptsFromWeights/sc_61-185_wholePop.txt
+
+* SC3-2009
+NetInterventionFile=../../../../school_closures/scriptsFromWeights/SC3_2009.txt
+
+* SC4-2009
+NetInterventionFile=../../../../school_closures/scriptsFromWeights/SC4_2009.txt
+
+* AV
+# AV test
+
+* !AV
+# no-AV test

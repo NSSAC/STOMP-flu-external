@@ -1,0 +1,29 @@
+### TEMPLATE LINES
+
+PatchFile=../../../FixedUSAPop.patchsim
+NetworkFile=../../../FixedUSANet.patchsim
+NetworkType=Static
+Model=Force
+
+InfectionRate=0.667
+RecoveryRate=0.4
+ScalingFactor=1
+SymptomaticProbability=0.55
+
+StartDate=1
+
+
+LoadState=False
+SaveState=False
+
+OutputFile=USA_sample.out
+OutputFormat=Whole
+LogFile=USA_sample.log
+
+
+### EXPERIMENT PREP LINES
+
+ExposureRate=1337
+SeedFile=../../../../HP_scenario_gen/USA_seed.csv
+Duration=365
+# AV test
