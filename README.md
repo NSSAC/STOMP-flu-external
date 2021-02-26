@@ -2,13 +2,7 @@
 
 This repository contains the code and resources required for STOMP-flu simulations and analyses. The included code and scenario data seeks to recreate and evaluate the effect of pharmaceutical and macroeconomic interventions upon the 2009 H1N1 influenza outbreak and hypothetical epidemics derived therefrom. 
 
-
-# TODO REVISIONS:
-* Hosting of PatchFlow separately
-* Remove/ do not commit PatchSim and suggest cloning repo
-* Final check for stubs and pointers
-* Add funding, license
-
+This work was funded by US Centers for Disease Control and Prevention 75D30119C05935. 
 
 ## Model overview
 
@@ -23,11 +17,6 @@ The included scenarios explore a range of implementations of school closure, vac
 The STOMP-flu project represents the work done at the Biocomplexity Institute of the University of Virginia in support of a CDC ensemble modelling effort:
 
 [UVA STOMP-flu Project Brief](https://biocomplexity.virginia.edu/news/biocomplexity-institute-leads-cdc-research-study-influenza-mitigation-computer-modeling-and)
-
-## STOMP-flu publications
-
-* Policy paper (in prep): "*Evaluating response strategies for pandemic influenza*"
-* Technical paper (in prep): "*Multi-modeling approach to evaluating efficacy of pharmaceutical and non-pharmaceutical interventions in influenza pandemics*"
 
 ## Dependencies
 
@@ -102,10 +91,3 @@ This notebook processes experimental exposed by subpopulation and day data to ge
 * Generated data and figures are saved to the *output* and *figures* subdirectories for each scenario in *../PatchSim-Experiments-Gen/experiments/{experiment}/* 
 
 **Note:** If **runAllOutcomes()** is run with the parameter **skipFinished=True**, then outcome processing will skip scenario subdirectories within experiments which contain an output directory. This allows for multiple instances of the notebook may be ran simultaneously without interferenceto distribute outcome processing workloads across machines.
-
-
-# Funding
-(in prep)
-
-# Attribution
-(in prep)
